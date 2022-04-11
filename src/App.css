@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  background: radial-gradient(circle, rgba(224,227,231,1) 0%, rgba(16,42,71,1) 100%);
+
+  background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
+
+.AppChild {
+  display: block;
 }
 
 .App-logo {
