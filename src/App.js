@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./Pages/MainPage";
 import {TopBar} from "./organisms/TopBar/TopBar";
-import Contacts from "./Molecules/Contacts/Contacts";
+import Work from "./Molecules/Work/Work";
 function App() {
 
   
@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/"  element={<MainPage />} />          
         </Routes>
         <Routes>
-          <Route path="/contact" element={<Contacts />} />         
+          <Route path="/contact" element={<Work />} />         
         </Routes>
       </BrowserRouter>
 

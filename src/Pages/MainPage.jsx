@@ -5,7 +5,7 @@ import Avatar from "@mui/material/Avatar";
 import prof from "../assets/pic.jpg";
 import styles from "./MainPage.module.css";
 import ProfileFull from "../Molecules/ProfileFull";
-import Contacts from "../Molecules/Contacts/Contacts";
+import Work from "../Molecules/Work/Work";
 import { TopBar } from "../organisms/TopBar/TopBar";
 
 function MainPage() {
@@ -21,7 +21,7 @@ function MainPage() {
       </div>
       {/* <Avatar alt="Afonso Pedroso" src={prof} sx={{ width: 200, height: 200 }} /> */}
       <div className={styles.contacts}>
-        <Contacts />
+        <Work />
       </div>
     </>
   );
